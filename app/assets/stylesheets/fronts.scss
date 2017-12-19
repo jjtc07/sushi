@@ -1,3 +1,9 @@
-// Place all the styles related to the fronts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body, html{
+	background-color: #111;
+}
+
+@media (min-width: 1200px){
+	.content {
+	    max-width: 1275px;
+	}	
+}
