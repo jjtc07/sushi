@@ -43,11 +43,6 @@ body, html{
 	color: rgba(255, 255, 255, .7);
 }
 
-.border-red{
-	border-bottom: 1px solid #ff0b0f;
-}
-
-
 // accordion de la carta
 
 #accordion{
@@ -78,4 +73,8 @@ body, html{
 
 .card-header {
   border-bottom: 0.02cm solid rgba(255, 255, 255, 0.2);
+}
+
+.border-red{
+	border-bottom: 0.05cm solid rgba(255, 11, 15, 1)
 }
