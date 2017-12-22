@@ -1,10 +1,7 @@
-<style type="text/css">
-  .navbar-dark{
-    border-bottom: 0.02cm solid rgba(255, 255, 255, 0.2);
-  }
-</style>
 <nav class="navbar navbar-expand-lg fixed-top sticky-top navbar-dark">
-  <a class="navbar-brand" href="#">Nombre Restaurant</a>
+  <%= link_to root_path, class: 'navbar-brand' do %>
+    Sushi Nikkei
+  <% end %>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -14,7 +11,9 @@
 
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Carta <span class="sr-only">(current)</span></a>
+        <%=  link_to carta_path, class: 'nav-link' do %>
+          Carta <span class="sr-only">(current)</span>
+        <% end %>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Locales</a>
@@ -23,5 +22,21 @@
         <a class="nav-link" href="#">Preguntas frecuentes</a>
       </li>
     </ul>
+
+    <div class="" style="margin-right: 20px;">
+      <a href="">
+        <i class="font-22 fa fa-facebook-square" aria-hidden="true"></i>
+      </a>
+
+      <a href="">
+        <i class="font-22 fa fa-instagram" aria-hidden="true"></i>
+      </a>
+
+      <a href="">
+        <i class="font-22 fa fa-twitter-square" aria-hidden="true"></i>
+      </a>
+    </div>
   </div>
+
+
 </nav>

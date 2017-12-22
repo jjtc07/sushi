@@ -59,3 +59,5 @@ gem 'bootstrap', '~> 4.0.0.beta2.1'
 gem 'annotate'
 
 gem 'jquery-rails'
+
+gem 'font-awesome-sass'

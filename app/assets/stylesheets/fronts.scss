@@ -7,3 +7,75 @@ body, html{
 	    max-width: 1275px;
 	}	
 }
+
+
+.bg-opacity{
+	background-color: rgba(0, 0, 0, 0);
+}
+
+// header
+.navbar-dark{
+  border-bottom: 0.02cm solid rgba(255, 255, 255, 0.2);
+  background-color: #111;
+}
+
+// footer
+.container-footer{
+	border-top: 3px solid #ff0b0f;
+	padding: 10px;
+}
+
+.container-footer p{
+	margin:0;
+}
+
+.text-white{
+	color: #FFF;
+}
+
+.text-red{
+	color: #ff0b0f;
+}
+
+.font-22{
+	font-size: 1.6rem;
+	padding: 5px;
+	color: rgba(255, 255, 255, .7);
+}
+
+.border-red{
+	border-bottom: 1px solid #ff0b0f;
+}
+
+
+// accordion de la carta
+
+#accordion{
+  background-color: #333;
+}
+
+#accordion a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, .7);
+}
+
+.collapse .card{
+  padding: 10px;
+}
+
+.collapse .card{
+  padding: 10px;
+}
+
+.collapse .card .card-body p{
+  margin: 0;
+  font-size: 1.2rem
+}
+
+.collapse .card:hover{
+  background-color: #444;
+}
+
+.card-header {
+  border-bottom: 0.02cm solid rgba(255, 255, 255, 0.2);
+}
